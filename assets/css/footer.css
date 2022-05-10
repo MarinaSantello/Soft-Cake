@@ -1,0 +1,86 @@
+footer{
+    background-color:#F5BEBD;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.info-container {
+    display: flex;
+    gap: 104px;
+    justify-content: center;
+}
+
+.down-container {
+    display: flex;
+    justify-content: center;
+    gap: 565px;
+}
+
+span {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.head, 
+.street,
+.other,
+.av1, 
+.av2, 
+.tel, 
+.email, 
+.sede, 
+.lojas, 
+.dom {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    color: #fff;
+} 
+
+.social-container {
+    font-size: 1.3rem;
+    width: 200px;
+}
+#youtube,
+#twitter,
+#instagram,
+#facebook {
+    width: 40px;
+}
+
+
+#youtube:hover,
+#twitter:hover,
+#instagram:hover,
+#facebook:hover {
+    font-size: 1.5rem;
+    transition: all 0.2s;
+    text-shadow: rgba(0, 0, 0, 0.253) 0px 4px 4px;
+}
+
+.copy-container {
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.down-container, 
+.copy-container {
+    color: #fff;
+}
+
+@media (max-width:768px) {
+    .info-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .down-container{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+}

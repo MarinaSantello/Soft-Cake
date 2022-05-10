@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #687A99;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+    --background-color: #FAF0EF;
+    --accent-color: #F5BEBD;
+    --accent-blue: #26416D;
+    --blue: #687A99;
+    --details: #97491A;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 1.6rem;
+    background-color: var(--background-color);
+    font-family: 'Josefin Sans', sans-serif;
+}

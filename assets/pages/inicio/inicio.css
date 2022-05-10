@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 8rem;
+    padding-block: 6rem;
+    gap: 20rem;
+    color: white;
+    text-shadow: 0 .4rem .4rem #00000025;
+    background-color: lightcoral;
+}
+
+.head h1{
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: end;
+}
+
+.head .catchphrase{
+    font-size: 3.5rem;
+}
+
+.search-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-products .products{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.search-products .products .product{
+    background-color: white;
+    width: 25rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3rem;
+    box-shadow: 0 .5rem .8rem .3rem #00000025;
+}
+
+.search-products .products .product .rectangle{
+    background-color: var(--accent-color);
+    width: 250px;
+    height: 80px;
+}
