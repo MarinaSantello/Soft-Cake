@@ -1,10 +1,32 @@
+main {
+    flex-grow: 2;
+}
+
+.all-tra {
+    display: flex;
+    gap: 20px;
+    z-index: -1;
+    margin-top: 75px;
+    position: absolute;
+}
+
+.traco {
+    background-color: var(--accent-blue);
+    height: 4.5px;
+    width: 19px;
+    border-radius: 2px 2px;
+}
+
 h1{
     color: var(--blue);
     font-size: 9rem;
     display: flex;
     justify-content: center;
-    align-items: top;
-    height: 150px;
+    align-items: flex-end;
+    margin-top: 70px;
+    background-color: var(--background);
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .sub-title{
@@ -45,7 +67,7 @@ h1{
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 350px;
+    top: 550px;
     z-index: 2;
 }
 
@@ -60,4 +82,28 @@ h1{
     color: var(--details);
     font-size: 3rem;
     box-shadow: rgba(0, 0, 0, 0.250) 0px 3px 6px;
+}
+
+.relato-1 {
+    margin-top: 5%;
+}
+
+.relato-1,
+.relato-3 {
+    background-color: rgba(255, 255, 255, 0.800);
+}
+
+.relato-1,
+.relato-2,
+.relato-3,
+.relato-4{
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-container {
+    display: flex;
+
 }

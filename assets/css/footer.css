@@ -1,4 +1,7 @@
 footer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     background-color:#F5BEBD;
     padding-top: 38px;
     padding-bottom: 38px;
@@ -8,46 +11,43 @@ footer{
 
 .info-container {
     display: flex;
-    gap: 104px;
+    gap: 200px;
     justify-content: center;
 }
 
 .down-container {
     display: flex;
     justify-content: center;
-    gap: 565px;
+    gap: 30px;
 }
 
 span {
     font-family: 'Josefin Sans', sans-serif;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
-.head, 
-.street,
-.other,
-.av1, 
-.av2, 
-.tel, 
-.email, 
-.sede, 
-.lojas, 
-.dom {
+.itens {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: lighter;
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     color: #fff;
-} 
+}
 
 .social-container {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     width: 200px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
 }
+
 #youtube,
 #twitter,
 #instagram,
 #facebook {
+    display: flex;
+    justify-content: center;
     width: 40px;
 }
 
@@ -56,31 +56,65 @@ span {
 #twitter:hover,
 #instagram:hover,
 #facebook:hover {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    width: 50px;
     transition: all 0.2s;
     text-shadow: rgba(0, 0, 0, 0.253) 0px 4px 4px;
 }
 
 .copy-container {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: lighter;
 }
 
 .down-container, 
 .copy-container {
+    display: flex;
+    flex-direction: column;
     color: #fff;
+    align-items: center;
+}
+
+.adress-container{
+    display: flex;
+    gap: 400px;
+}
+
+.adress-container,
+.contat-container,
+.time-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width:1000px) {
+    footer{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .info-container {
+        display: flex;
+        gap: 50px;
+    }
 }
 
 @media (max-width:768px) {
+    footer{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
     .info-container{
         display: flex;
         flex-direction: column;
+        gap: 55px;
     }
 
     .down-container{
         display: flex;
         flex-direction: column;
-        gap: 70px;
+        gap: 40px;
     }
 }

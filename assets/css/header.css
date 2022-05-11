@@ -4,6 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-left: 80px;
+    padding-right: 8rem;
     background-color: #F5BEBD;
 }
 
@@ -12,31 +13,36 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
-    padding-right: 5.2rem;
+    gap: 1.4rem;
 }
 
 .links-container a {
     font-size: 2.8rem;
     transition: all 0.4s;
-    border: 0rem solid #fff;
     border-radius: 1rem;
+    padding-inline: 2.3rem;
+    padding-block: 1.1rem;
 }
 
 .links-container a:hover {
     border: .3rem solid #fff;
     border-radius: 1rem;
-    padding-inline: 3rem;
+    padding-inline: 2.5rem;
     padding-block: 1.1rem;
     box-shadow: 0 .3rem .5rem #00000040;
+}
+
+.nav {
+    font-weight: normal;
 }
 
 .search-bar-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10rem;
-    background-color: #FFF;
+    gap: 50px;
+    height: 8rem;
+    background-color: rgba(255, 255, 255, 0.800);
 }
 
 .search-bar-container-dois {
@@ -44,11 +50,12 @@ header {
     align-items: center;
     justify-content: center;
     height: 5rem;
-    width: 70rem;
+    width: 65rem;
     border: solid 2px var(--accent-blue);
     border-radius: 50px;
     border-width: 3px;
     box-shadow: 0 .3rem .5rem #00000040;
+    gap: 38px;
 
     /* background-color: aqua; */
 }
