@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    color: #687A99;
+    color: var(--blue);
 }
 
 ul, ol {

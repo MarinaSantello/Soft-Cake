@@ -20,7 +20,7 @@ header {
     gap: 1.4rem;
 }
 
-.links-container a {
+.links-container a{
     font-size: 2.8rem;
     transition: all 0.4s;
     border-radius: 1rem;
@@ -74,4 +74,31 @@ header {
 
 .search-bar:active {
     border: 3px solid var(--accent-blue);
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 9rem;
+    }
+    .links-container{
+        background-color: black;
+        height: 100%;
+
+        position: absolute;
+        z-index: 998;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 65px;
+        font-size: 2.5rem;
+        font-weight: 300;
+        transform: translate(100%);
+        transition: all 1s;
+    }
+    .menu-burger-container.show ~ .links-container {
+        transform: translate(0);
+    }
 }

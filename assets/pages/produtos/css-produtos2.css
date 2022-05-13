@@ -10,25 +10,6 @@ main {
     z-index: -3;
     margin-top: 145px;
     margin-bottom: 100px;
-    /*margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 20px;*/
-}
-
-.all-tra {
-    display: flex;
-    gap: 20px;
-    z-index: -1;
-    margin-top: 75px;
-    position: absolute;
-    width: 100vw;
-}
-
-.traco {
-    background-color: var(--accent-blue);
-    height: 4.5px;
-    width: 19px;
-    border-radius: 2px 2px;
 }
 
 h1{
@@ -48,7 +29,7 @@ h1{
 .sub-title{
     color: var(--accent-blue);
     padding-left: 100px;
-    font-size: 4.5rem;
+    font-size: 4rem;
     height: 50px;
     display: flex;
 }
@@ -96,65 +77,86 @@ h1{
     justify-content: center;
     align-items: center;
     color: var(--details);
-    font-size: 4.2rem;
+    font-size: 4.3rem;
     box-shadow: rgba(0, 0, 0, 0.250) 0px 3px 6px;
 }
 
-.relato-1 {
-    margin-top: 5%;
+.all {
+    display: flex;
+    flex-direction: column;
 }
 
-.relato-1,
-.relato-3 {
-    background-color: rgba(255, 255, 255, 0.800);
+.all-produts {
+    width: 1232px;
+    height: 1212px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 58px;
+    padding-top: 37px;
+    padding-bottom: 200px;
+    gap: 75px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.250) 0px 3px 6px;
 }
 
-.relato-1,
-.relato-2,
-.relato-3,
-.relato-4{
-    padding-left: 230px;
-    padding-right: 195px;
-    padding-top: 50px;
-    padding-bottom: 70px;
+.produts-container,
+.produts-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
-.cargo {
-    padding-left: 55px;
-    padding-bottom: 15px;
-    color: #9D295A;
-    font-size: 4rem;
-    font-weight: 700;
+.produts-container2 produts {
+
+}
+
+.produts {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.250) 0px 3px 6px;
 }
 
 .img {
-    border-radius: 50px;
-    z-index: 2;
-    margin-left: 35px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
-.flex-end img {
-    margin-right: 35px;
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: lighter;
+    padding-top: 21px;
+    padding-bottom: 34px;
 }
 
-.box-1 {
-    width: 440px;
-    height: 294px;
-    border: .5rem solid #9D295A;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 35px;
-    box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.25);
+.more-content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 20.5px;
+    padding-left: 20.5px;
+    background-color: #F5BEBD;
 }
 
-.box-2 {
-    width: 440px;
-    height: 294px;
-    border: .5rem solid #9D295A;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 35px;
-    box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.25);
+.produts a {
+    color: #fff;
+    font-size: 2.5rem;
+    width: 209px;
+    height: 48px;
+    background-color: var(--blue);
+    border-radius: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: lighter;
 }
 
 .content-container {
@@ -170,13 +172,13 @@ h1{
 
 .nome {
     color: var(--accent-blue);
-    font-size: 3rem;
+    font-size: 2.95rem;
 }
 
 .paragrafo {
     color: var(--accent-blue);
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -288,7 +290,7 @@ h1{
 
 .bloco-container{
     background-color: var(--accent-color);
-    width: 49.4vw;
+    width: 49vw;
     padding: 100px;
     display: flex;
     justify-content: center;
@@ -334,30 +336,6 @@ h1{
     font-weight: 600;
 }
 
-.work {
-    background-color: white;
-    height: 385px;
-    padding-left: 220px;
-    padding-top: 50px;
-    padding-right: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.work h3 {
-    font-size: 5rem;
-    font-weight: 600;
-}
-
-.work p {
-    font-size: 2.5rem;
-    font-weight: 300;
-    width: 750px;
-    text-align: center;
-}
-
 .space {
     display: flex;
     flex-direction: column;
@@ -367,18 +345,13 @@ h1{
 
 .work a {
     color: #fff;
-    font-size: 2.5rem;
-    width: 500px;
-    height: 100px;
+    font-size: 2rem;
+    width: 300px;
+    height: 50px;
     background-color: var(--blue);
-    border-radius: 30px 0px 30px 0px;
+    border-radius: 50px 50px 50px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .5s;
-}
-
-.work a:hover {
-    font-size: 2.8rem;
-    transition: .5s;
+    margin-bottom: 50px;
 }
