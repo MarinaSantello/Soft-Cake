@@ -9,7 +9,7 @@ main{
     flex-direction: column;
     border: .3rem dashed var(--blue);
     z-index: -3;
-    margin-bottom: 100px;
+    margin-bottom: 1rem;
 }
 
 /* === HEADING === */
