@@ -115,9 +115,10 @@ main{
 .container-all .priorities-container .priorities-stats{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 9.6rem;
-    padding-inline: 10.2rem;
+    gap: 9rem;
+    padding-right: 10rem;
 }
 
 .container-all .priorities-container .priorities-stats .prioritie{
@@ -132,3 +133,30 @@ main{
     font-weight: 200;
     color: #00245E;
 }
+
+/* === ONG'S === */
+.container-all .ongs-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-block: 3.5rem;
+    padding: 8.5rem;
+    border: .5rem solid #687A99;
+    border-radius: 2rem 15rem;
+    width: 117rem;
+}
+
+.container-all .ongs-container .ongs-text{
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+
+.container-all .ongs-container img{
+    position: absolute;
+    z-index: -100;
+    bottom: -111.2rem;
+}
+
+/* === MAIS QUE BOLOS === */
