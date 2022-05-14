@@ -141,9 +141,11 @@ main{
     flex-direction: column;
     margin: auto;
     margin-block: 3.5rem;
-    padding: 8.5rem;
+    padding-block: 6rem;
+    padding-inline: 8.5rem;
     border: .5rem solid #687A99;
     border-radius: 2rem 15rem;
+    background-color: #ffffff80;
     width: 117rem;
 }
 
@@ -156,7 +158,49 @@ main{
 .container-all .ongs-container img{
     position: absolute;
     z-index: -100;
-    bottom: -111.2rem;
+    bottom: -108.5rem;
 }
 
 /* === MAIS QUE BOLOS === */
+.container-all .diversity-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-block: 3.5rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    border: .5rem solid #687A99;
+    border-radius: 15rem 2rem;
+    background-color: #ffffff80;
+    width: 116rem;
+}
+
+.container-all .diversity-container .title{
+    padding-top: 4rem;
+    padding-bottom: .2rem;
+    font-size: 3.7rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 3.7rem;
+    color: #26416D;
+}
+
+.container-all .diversity-container .frase1,
+.container-all .diversity-container .frase2{
+    padding-bottom: .2rem;
+    font-size: 3.7rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.container-all .diversity-container .diversity-img-container{
+    display: flex;
+    padding-top: .8rem;
+    gap: 8rem;
+}
+
+.container-all .diversity-container .diversity-img-container img{
+    filter: drop-shadow(0 .6rem 1.5rem #0000004d);
+}
