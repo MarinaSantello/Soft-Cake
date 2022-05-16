@@ -36,7 +36,7 @@ h1{
 .sub-title{
     color: var(--accent-blue);
     padding-left: 100px;
-    font-size: 4rem;
+    font-size: 4.5rem;
     height: 50px;
     display: flex;
 }
