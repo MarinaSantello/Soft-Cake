@@ -98,6 +98,11 @@ h1{
     box-shadow: rgba(0, 0, 0, 0.250) 0px 3px 6px;
 }
 
+.img {
+    display: flex;
+    justify-content: center;
+}
+
 .img img {
     padding-top: 25px;
     padding-right: 25px;
@@ -111,6 +116,17 @@ h4 {
     font-weight: lighter;
     padding-top: 21px;
     padding-bottom: 34px;
+    text-align: center
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 .more-content {
@@ -120,6 +136,7 @@ h4 {
     justify-content: center;
     background-color: #F5BEBD;
 }
+
 
 .produts a {
     color: #fff;

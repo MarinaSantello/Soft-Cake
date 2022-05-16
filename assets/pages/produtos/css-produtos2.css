@@ -87,8 +87,8 @@ h1{
 }
 
 .all-produts {
-    width: 1232px;
-    height: 1212px;
+    width: 1432px;
+    height: 2100px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -103,14 +103,13 @@ h1{
 }
 
 .produts-container,
-.produts-container2 {
+.produts-container2,
+.produts-container3,
+.produts-container4 {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
-}
-
-.produts-container2 produts {
-
 }
 
 .produts {
@@ -135,13 +134,24 @@ h4 {
     font-weight: lighter;
     padding-top: 21px;
     padding-bottom: 34px;
+    text-align: center;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 .more-content {
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-right: 20.5px;
-    padding-left: 20.5px;
+    display: flex;
+    justify-content: center;
     background-color: #F5BEBD;
 }
 
