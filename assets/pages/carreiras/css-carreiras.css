@@ -2,6 +2,10 @@ main {
     flex-grow: 2;
 }
 
+.background-img {
+    display: none;
+}
+
 .container-all {
     display: flex;
     flex-direction: column;
@@ -98,7 +102,6 @@ h1{
     color: var(--details);
     font-size: 4.2rem;
     box-shadow: rgba(0, 0, 0, 0.250) 0px 3px 6px;
-    padding-top: 8px;
 }
 
 .relato-1 {
@@ -229,6 +232,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: var(--blue);
     font-size: 1.8rem;
     padding: 20px;
@@ -248,8 +252,6 @@ h1{
     width: 220px;
     transition: .5s;
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
 }
 
 .flex-end {
@@ -383,4 +385,10 @@ h1{
 .work a:hover {
     font-size: 2.8rem;
     transition: .5s;
+}
+
+@media (max-width: 768px) {
+    .background-img {
+        display: flex;
+    }
 }
