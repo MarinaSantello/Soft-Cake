@@ -1,7 +1,5 @@
 main{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 2;
+    display: block;
 }
 
 .container-all {
@@ -122,10 +120,17 @@ main{
 }
 
 .container-all .priorities-container .priorities-stats .prioritie{
+    transition: .3s all ease-in-out;
+    padding: 1rem;
+    border-radius: 1.2rem;
     display: flex;
+    z-index: 99;
     align-items: center;
     justify-content: center;
     gap: 1.6rem;
+}
+.container-all .priorities-container .priorities-stats .prioritie:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .container-all .priorities-container .priorities-stats .prioritie .prioritie-text{
@@ -153,12 +158,6 @@ main{
     font-size: 3.5rem;
     font-weight: 300;
     margin-bottom: 4rem;
-}
-
-.container-all .ongs-container img{
-    position: absolute;
-    z-index: -100;
-    bottom: -108.5rem;
 }
 
 /* === MAIS QUE BOLOS === */

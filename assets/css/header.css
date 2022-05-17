@@ -61,8 +61,6 @@ header {
     border-width: 3px;
     box-shadow: 0 .3rem .5rem #00000040;
     gap: 38px;
-
-    /* background-color: aqua; */
 }
 
 .search-bar {
@@ -72,18 +70,23 @@ header {
     border: none;
 }
 
-.search-bar:active {
-    border: 3px solid var(--accent-blue);
+.search-bar:focus{
+    outline: none; 
 }
 
 @media (max-width: 768px) {
     header {
-        height: 9rem;
+        padding: 2rem;
+    }
+    svg {
+        display: none;
+    }
+    .logo img{
+        width: 22rem;
     }
     .links-container{
-        background-color: black;
-        height: 100%;
-
+        background-color: #F5BEBD;
+        height: 100vh;
         position: absolute;
         z-index: 998;
         top: 0;
@@ -91,12 +94,27 @@ header {
         right: 0;
         bottom: 0;
         flex-direction: column;
-        justify-content: center;
         gap: 65px;
-        font-size: 2.5rem;
-        font-weight: 300;
         transform: translate(100%);
         transition: all 1s;
+    }
+    .links-container a{
+        font-size: 2.8rem;
+        color: #FFF;
+    }
+    .links-container a:hover{
+        border: none;
+        box-shadow: none;
+    }
+    .search-bar-container {
+        height: 5.5rem;
+        width: 100vw;
+    }
+    .search-bar-container-dois {
+        padding-left: 1.6rem;
+        width: 70%;
+        height: 4rem;
+        gap: 16px;
     }
     .menu-burger-container.show ~ .links-container {
         transform: translate(0);

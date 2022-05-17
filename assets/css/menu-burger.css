@@ -1,6 +1,7 @@
 .menu-burger-container {
     height: 36px;
     width: 36px;
+    padding-right: 6rem;
     display: none;
     position: relative;
     align-items: center;

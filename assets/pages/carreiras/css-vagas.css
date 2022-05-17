@@ -70,12 +70,13 @@ main{
 .seta {
     font-size: 5rem;
     display: flex;
-    padding-bottom: 15px;
+    padding-bottom: 8.5px;
     color: var(--blue);
 }
 
 .word {
     display: none;
+    padding-top: 3.5px;
     font-size: 2.5rem;
     transition: 1.8s;
     color: white;
@@ -221,6 +222,7 @@ h2 {
 
     .box-all {
         padding-left: 0px;
+        padding-bottom: 40px;
         height: auto;
     }
 
@@ -241,6 +243,9 @@ h2 {
     .vaga-3,
     .vaga-4 {
         height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     h2 {
@@ -255,5 +260,49 @@ h2 {
 
     .text2 {
         font-size: 1.7rem;
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .vaga-1:hover .content-text,
+    .vaga-2:hover .content-text,
+    .vaga-3:hover .content-text,
+    .vaga-4:hover .content-text {
+        color: var(--blue);
+        height: auto;
+        font-size: 1.7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .vaga-1:hover .text-container,
+    .vaga-2:hover .text-container,
+    .vaga-3:hover .text-container,
+    .vaga-4:hover .text-container {
+        color: var(--blue);
+        height: auto;
+        font-size: 1.7rem;
+    }
+
+    .vaga-1:hover h2,
+    .vaga-2:hover h2,
+    .vaga-3:hover h2,
+    .vaga-4:hover h2  {
+        font-size: 2.2rem;
+    }
+
+    .vaga-1:hover,
+    .vaga-2:hover,
+    .vaga-3:hover,
+    .vaga-4:hover {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }

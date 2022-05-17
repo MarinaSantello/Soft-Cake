@@ -76,6 +76,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 8px;
     color: var(--details);
     font-size: 4.3rem;
     box-shadow: rgba(0, 0, 0, 0.250) 0px 3px 6px;
@@ -99,6 +100,20 @@ h1 {
     align-items: center;
     border-radius: 30px 30px 30px 30px;
     box-shadow: rgba(0, 0, 0, 0.250) 0px 3px 6px;
+    transition: all 5s;
+}
+
+.produts:hover {
+    border: .3rem solid var(--blue);
+    transition: all 5s;
+}
+
+.produts:hover .img img {
+    border: 1rem double #9D295A;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: all .5s;
 }
 
 .img {
@@ -107,10 +122,10 @@ h1 {
 }
 
 .img img {
-    border: 1rem double var(--details);
-    margin-top: 25px;
-    margin-right: 25px;
-    margin-left: 25px;
+    border: .3rem solid #9D295A;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     border-radius: 30px 30px 30px 30px;
 }
 
@@ -142,6 +157,18 @@ h5 {
     justify-content: center;
     align-items: center;
     margin: 2rem;
+}
+
+.title-box:hover h4 {
+    font-size: 3.5rem;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.title-box:hover h5 {
+    font-size: 2.7rem;
+    transition: all .5s;
+    cursor: pointer;
 }
 
 .content-container {
@@ -368,4 +395,19 @@ h5 {
 .work a:hover {
     font-size: 2.8rem;
     transition: .5s;
+}
+
+@media (max-width: 768px) {
+    .produts-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+
+    .produts {
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+    }
 }
