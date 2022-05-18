@@ -263,4 +263,5 @@ main{
 
 .container-all .points-container .point-merit .point-text{
     line-height: 4rem;
+    text-align: left;
 }

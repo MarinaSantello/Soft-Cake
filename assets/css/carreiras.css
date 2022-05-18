@@ -404,11 +404,7 @@ h1{
         padding-top: 55px;
         z-index: -3;
         margin-top: 140px;
-        margin-bottom: 100px;
-        /* background-color: aquamarine; */
-        /*margin-left: 20px;
-        margin-right: 20px;
-        border-radius: 20px;*/
+        margin-bottom: 0px;
     }
     
     .traco {
@@ -460,19 +456,21 @@ h1{
     }
 
     .relatos {
-        top: 450px;
+        top: 422px;
     }
 
     .sub-title2 {
-        width: 300px;
-        height: 50px;
-        background-color:transparent;
+        width: 85vw;
+        height: 60px;
+        background-color: rgba(255, 255, 255, 0.7);
         display: flex;
         justify-content: center;
         align-items: center;
         color: var(--accent-blue);
-        box-shadow: none;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 4px;
+        border-radius: 0px 0px 20px 20px;
         font-size: 2.3rem;
+        text-align: center;
     }
 
     .all-relatos {
@@ -482,9 +480,13 @@ h1{
         background-color: rgb(126, 53, 53);
     }
 
+    .relato-1 {
+        margin-top: 25%;
+    }
+
     .relato-1,
     .relato-3 {
-        background-color: transparent;
+        background-color: (255, 255, 255, 0.800);
     }
 
     .relato-1,
@@ -493,7 +495,7 @@ h1{
     .relato-4 {
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 75px;
+        padding-top: 50px;
         padding-bottom: 0px;
     }
 
@@ -502,12 +504,37 @@ h1{
         flex-direction: column;
     }
 
+    .cargo {
+        padding-left: 55px;
+        padding-bottom: 1px;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
     .img {
         display: none;
     }
     
     .img-mobile {
         display: block;
+    }
+    
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 30px;
+    }
+    
+    .nome {
+        color: var(--accent-blue);
+        font-size: 2.2rem;
+    }
+    
+    .paragrafo {
+        color: var(--accent-blue);
+        font-weight: 300;
+        font-size: 1.9rem;
     }
 
     .box-1, .box-2 {
@@ -542,7 +569,7 @@ h1{
     .box-container {
         display: flex;
         gap: 20px;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -559,6 +586,14 @@ h1{
 
     .priori-container {
         width: 100vw;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .priori-container p {
+        font-size: 2.1rem;
     }
 
     .sub-title4 h3 {
@@ -580,11 +615,11 @@ h1{
     }
 
     .paragrafo-t {
-        font-size: 2.8rem;
+        font-size: 2.7rem;
     }
     
     .line {
-        font-size: 2.8rem;
+        font-size: 2.7rem;
     }
 
     .work {
@@ -593,15 +628,16 @@ h1{
         padding-left: 20px;
         padding-top: 50px;
         padding-right: 20px;
+        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
         padding-bottom: 20px;
     }
     
     .work h3 {
-        font-size: 4.6rem;
+        font-size: 4.2rem;
         font-weight: 600;
         display: flex;
         justify-content: center;
@@ -618,13 +654,14 @@ h1{
     .space {
         display: flex;
         flex-direction: column;
-        gap: 65px;
+        gap: 55px;
         align-items: center;
     }
     
     .work a {
         color: #fff;
         font-size: 2rem;
+        font-weight: 400;
         width: 300px;
         height: 80px;
         background-color: var(--blue);
@@ -632,6 +669,12 @@ h1{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 25px;
+        transition: .5s;
+    }
+
+    .work a:hover {
+        font-size: 2rem;
         transition: .5s;
     }
 }
