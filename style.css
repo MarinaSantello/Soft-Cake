@@ -265,3 +265,40 @@ main{
     line-height: 4rem;
     text-align: left;
 }
+
+@media (max-width: 768px){
+    /* === HEADING === */
+    .container-all .heading-container{
+        align-items: center;
+        justify-content: center;
+        height: 45.2rem;
+    }
+
+    .container-all .heading-container .heading{
+        width: 40rem;
+        padding-left: 0;
+        padding-bottom: 0;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container-all .heading-container .heading h1{
+        font-size: 8rem;
+    }
+
+    /* === SOBRE NÓS === */
+    .container-all .about-us{
+        padding-top: 4rem;
+        flex-direction: column;
+    }
+
+    .container-all .about-us .about-text .text{
+        font-size: 9rem;
+    }
+
+    .container-all .about-us .who-container{
+        width: 42rem;
+        padding-top: 2rem;
+        align-items: center;
+    }
+}

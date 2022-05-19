@@ -481,12 +481,17 @@ h1{
     }
 
     .relato-1 {
-        margin-top: 25%;
+        margin-top: 19%;
     }
 
     .relato-1,
     .relato-3 {
-        background-color: (255, 255, 255, 0.800);
+        background-color: transparent;
+    }
+
+    .relato-2,
+    .relato-4 {
+        background-color: rgba(255, 255, 255, 0.8);
     }
 
     .relato-1,
