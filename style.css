@@ -270,10 +270,11 @@ main{
 }
 
 @media (max-width: 768px){
-    /* === HEADING === */
+    /* === HEADING === */ 
     .container-all .heading-container{
         align-items: center;
         justify-content: center;
+        background-position: center;
         height: 45.2rem;
     }
 
@@ -303,5 +304,44 @@ main{
         width: 42rem;
         padding-top: 2rem;
         align-items: center;
+    }
+
+    /* === PRIORIDADES === */
+    .container-all .priorities-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding-block: 6rem;
+        padding-left: 0;
+    }
+    
+    .container-all .priorities-container .priorities-subtitle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container-all .priorities-container .priorities-subtitle h3{
+        text-align: center;
+    }
+    
+    .container-all .priorities-container .priorities-stats{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0;
+    }
+    
+    .container-all .priorities-container .priorities-stats .prioritie{
+        transition: none;
+        padding: none;
+        border-radius: none;
+    }
+    
+    .container-all .priorities-container .priorities-stats .prioritie:hover{
+        box-shadow: none;
     }
 }
