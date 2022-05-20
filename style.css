@@ -17,7 +17,10 @@ main{
     justify-content: flex-end;
     text-align: justify;
     height: 65.2rem;
-    background-color: var(--accent-color);
+    background-image: url(./assets/img/inicio/cake.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
 }
 
 .container-all .heading-container .heading{
@@ -124,11 +127,11 @@ main{
     padding: 1rem;
     border-radius: 1.2rem;
     display: flex;
-    z-index: 99;
     align-items: center;
     justify-content: center;
     gap: 1.6rem;
 }
+
 .container-all .priorities-container .priorities-stats .prioritie:hover{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
