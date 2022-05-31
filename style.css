@@ -279,31 +279,49 @@ main{
     }
 
     .container-all .heading-container .heading{
-        width: 40rem;
+        width: 90vw;
         padding-left: 0;
         padding-bottom: 0;
         align-items: center;
+        justify-content: center;
         margin: auto;
     }
 
     .container-all .heading-container .heading h1{
-        font-size: 8rem;
+        font-size: 7rem;
+    }
+
+    .container-all .heading-container .heading p{
+        font-size: 2.8rem;
+        margin: auto;
     }
 
     /* === SOBRE NÓS === */
     .container-all .about-us{
+        width: 90vw;
         padding-top: 4rem;
         flex-direction: column;
+        margin: auto;
     }
 
     .container-all .about-us .about-text .text{
-        font-size: 9rem;
+        font-size: 7rem;
     }
 
     .container-all .about-us .who-container{
-        width: 42rem;
+        width: 90vw;
+        margin: auto;
         padding-top: 2rem;
         align-items: center;
+        justify-content: center;
+    }
+
+    .container-all .about-us .who-container h3{
+        font-size: 4rem;
+    }
+
+    .container-all .about-us .who-container .who-text{
+        font-size: 2.8rem;
     }
 
     /* === PRIORIDADES === */

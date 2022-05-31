@@ -55,3 +55,21 @@ body {
     background-color: var(--background-color);
     font-family: 'Josefin Sans', sans-serif;
 }
+
+@media(max-width: 768px){
+    *::-webkit-scrollbar {
+        display: none;  
+    }
+    
+    *::-webkit-scrollbar-track {
+        display: none;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    
+    *::-webkit-scrollbar-thumb:hover {
+        display: none;
+    }
+}
