@@ -362,4 +362,21 @@ main{
     .container-all .priorities-container .priorities-stats .prioritie:hover{
         box-shadow: none;
     }
+
+    /* === ONG'S === */
+    .container-all .ongs-container{
+        width: 100vw;
+        margin: 0;
+        padding-inline: 3rem;
+        text-align: justify;
+        border-radius: 0;
+        border: none;
+    }
+
+    /* === MAIS QUE BOLOS === */
+    .container-all .diversity-container{
+        width: 100vw;
+        border: none;
+        border-radius: 0;
+    }
 }
